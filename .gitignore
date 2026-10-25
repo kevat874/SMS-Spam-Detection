@@ -1,0 +1,63 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Models and large files (optional - uncomment if you don't want to commit models)
+# models/*.joblib
+# models/*.pkl
+
+# Data (do not commit the original dataset to keep repo small)
+data/raw/SMSSpamCollection
+data/raw/*.zip
+data/raw/sms_spam_collection.zip
+
+# Processed data can be committed or not - decide based on size
+# data/processed/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and temporary
+*.log
+tmp/
+temp/
